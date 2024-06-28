@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80vw;
+    font-family: "Merriweather", serif;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft {
+    width: 50%;
+}
+
+.topright {
+    width: 50%;
+}
+
+.section1 {
+    height: 600px;
+}
+
+.section1 h1 {
+    font-size: 1.7rem;
+}
+
+.logo {
+    font-size: 1.3rem;
+}
+
+.section2 {
+    padding: 70px;
+}
+
+.section2 h1 {
+    font-size: 2.3rem;
+}
+
+.section2 p {
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box {
+    padding: 8px 0px;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid #e40613;
+    ;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box ul {
+    list-style-type: none;
+}
+
+.box ul li {
+    margin: 12px 2px;
+}
+
+.box h2 {
+    font-size: 2rem;
+    padding: 15px 0px;
+}
+
+.highlighted {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.plantable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table {
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th {
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section3 table td {
+    border-bottom: 2px solid black;
+
+}
+
+.section3 {
+    padding: 70px;
+}
+
+.section3 h1 {
+    font-size: 2.3rem;
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+    color: #e40613;
+}
